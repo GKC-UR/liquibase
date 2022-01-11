@@ -1,0 +1,25 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 2
+      author: Gabriel
+
+  - include:
+      file: Fluxo/001_create_table.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: Fluxo2/001_insert_employers.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: Fluxo2/002_insert_employers2.sql
+      relativeToChangelogFile: true 
+
+  - include:
+      file: Fluxo2/003_insert_branchs.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: Fluxo3/update_employeer.sql
+      relativeToChangelogFile: true       
