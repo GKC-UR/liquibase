@@ -22,4 +22,12 @@ databaseChangeLog:
 
   - include:
       file: Fluxo3/update_employeer.sql
-      relativeToChangelogFile: true       
+      relativeToChangelogFile: true
+
+  - include:
+      file: Fluxo4/deletar_usuario.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: Fluxo4/update_usuario.sql
+      relativeToChangelogFile: true
